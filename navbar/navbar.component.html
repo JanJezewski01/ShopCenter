@@ -1,0 +1,70 @@
+<div class="navbar">
+  
+
+
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Domowe</a>
+    
+    <div class="dropdown-content">
+      
+      <a (click)="showContent3()">Meble</a>
+      <a (click)="showContent7()">AGD</a>
+      <a (click)="showContent2()">Rośliny</a>
+      
+    </div>
+  </li>
+
+ 
+
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Ubrania</a>
+    
+    <div class="dropdown-content">
+      <a (click)="showContent6()">Bluzy</a>
+      <a (click)="showContent5()">Spodnie</a>
+      <a (click)="showContent4()">Skarpety</a>
+      <a (click)="showContent()">Buty</a>
+      
+    </div>
+    </li>
+
+  </div>
+
+
+<div *ngIf="showComponent">
+    <app-buty></app-buty>
+  </div>
+
+  <div *ngIf="showComponent2">
+    <app-roliny></app-roliny>
+  </div>
+
+  <div *ngIf="showComponent3">
+    <app-meble></app-meble>
+  </div>
+
+  <div *ngIf="showComponent4">
+    <app-skarpety></app-skarpety>
+  </div>
+
+  <div *ngIf="showComponent5">
+    <app-spodnie></app-spodnie>
+  </div>
+
+  <div *ngIf="showComponent6">
+    <app-bluzy></app-bluzy>
+  </div>
+
+  <div *ngIf="showComponent7">
+    <app-agd></app-agd>
+  </div>
+
+  <div *ngIf="showComponent10">
+    <app-krzesla-b></app-krzesla-b>
+  </div>
+
+ 
+
+  

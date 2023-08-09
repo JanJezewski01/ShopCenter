@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  body {
+    background-color: rgb(114, 111, 111);
+      line-height: 26px;
+    }
+   
+    p {
+      font-family: "Audiowide", sans-serif;
+      font-size: 20px;
+    }
+  
+
+  div {
+      display: block;
+  }
+    .p1{
+      color: #ffffff;
+      background-color: rgb(114, 111, 111);
+      
+
+      
+      height: 32px;
+      margin-left: 650px;
+      
+      
+      font-family: "Audiowide", sans-serif;
+      font-variant: small-caps;
+      text-transform: capitalize;
+      text-shadow: 3px 3px #00000049;
+     
+    }
+    
+    p {
+      font-family: "Audiowide", sans-serif;
+      
+      font-size: 20px;
+    }
+
+    .fakeimg {
+
+      
+      width: 100%;
+      height: 350px;
+      padding: 1px;
+
+    }
+    .column{
+      border-radius: 12px; 
+      
+      background-color: rgb(48, 47, 47);
+      padding: 20px;
+      margin-left: 100px;
+      margin-right: 170px;
+      
+
+    }
+ 
+    .card {
+      width: 100%;
+      background-color: rgb(48, 47, 47);
+      margin: 15px 5px;
+      padding: 20px;
+      margin-top: 20px;
+      }
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+          height: auto;
+        }
+      }
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 10;
+      }
+    }
+  
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    
+  
+        .button {
+          background-color: #4CAF50; /* Green */
+          border: none;
+          color: rgb(160, 139, 139);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          
+        }
+        
+        .button2 {
+          
+          margin: 16px 10px ;
+          border: 0px ;
+          
+          padding-left: 60px;
+
+        }
+        .button2:hover {
+          -webkit-box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+          -moz-box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+          box-shadow: 10px 10px 40px -3px rgba(0,0,0,0.75);
+        }
+
+        .row::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+      
+        .fa {
+          padding: 10px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 10px;
+          border-radius: 50%;
+
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+            -webkit-box-shadow: 3px 3px 31px 4px rgba(0,0,0,0.41);
+            -moz-box-shadow: 3px 3px 31px 4px rgba(0,0,0,0.41);
+              box-shadow: 3px 3px 31px 4px rgba(0,0,0,0.41);
+
+          }
+        
+        .fa-instagram {
+          color: rgb(255, 255, 255);
+          
+          
+        }
+        .fa-facebook {
+          color: rgb(177, 177, 177);
+          
+        }
+
+        .fa-linkedin {
+          color: rgb(134, 134, 134);
+          
+        }
+
+
+      
+     
+  
+  
