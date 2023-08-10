@@ -11,7 +11,6 @@ import { ButyComponent } from './buty/buty.component';
 import { RolinyComponent } from './roliny/roliny.component';
 import { PaginationComponent } from './pagination/pagination.component';
 
-import { ErroComponent } from './erro/erro.component';
 import { MebleComponent } from './meble/meble.component';
 import { SkarpetyComponent } from './skarpety/skarpety.component';
 import { BluzyComponent } from './bluzy/bluzy.component';
@@ -39,7 +38,7 @@ import { WwComponent } from './ww/ww.component';
   RolinyComponent,
   PaginationComponent,
 
-  ErroComponent,
+
   MebleComponent,
   SkarpetyComponent,
   BluzyComponent,
